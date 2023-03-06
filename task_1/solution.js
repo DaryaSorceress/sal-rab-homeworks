@@ -34,7 +34,11 @@ function addInCartCountChange(value) {
     // создайте переменную newValue
     // присвойте ей значение oldValue
     // увеличьте значение newValue на 1
-
+let newValue = oldValue;
+newValue = newValue + 1;
+let newSum = oldSum+difference;
+let newSumText = newSum + ’ ₽’ 
+newSumText = `${newSum} ₽`;
     // Конец решения задания №1.2.
 
     return newValue;
